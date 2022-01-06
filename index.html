@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon/color-palette.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Colors</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="warrap">
+            <input type="range" oninput="colors()"  id="red" min='0' max="255">
+        </div>
+        <div class="warrap">
+            <input type="range" oninput="colors()"  id="green" min='0' max="255">
+        </div>
+        <div class="warrap">
+            <input type="range" oninput="colors()"  id="blue" min='0' max="255">
+        </div>
+        <span>rgb(0,0,0,0)</span>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

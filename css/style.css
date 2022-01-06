@@ -1,0 +1,23 @@
+body{
+   display: flex;
+   background-color: black;
+   align-items: center;
+   justify-content: center;
+   height:100vh;
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     background-color: beige;
+     width: 400px;
+     height: 200px;
+     border-radius: 50px;
+}
+span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    font-weight: bolder;
+    
+}
